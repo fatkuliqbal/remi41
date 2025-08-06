@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.section-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.entry-row {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    gap: 10px;
+}
+
+.name {
+    width: 100px;
+}
+
+.point-input, .name-input {
+    padding: 5px;
+    width: 80px;
+}
+
+.point-terakhir {
+    width: 120px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
